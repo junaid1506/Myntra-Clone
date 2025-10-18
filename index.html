@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Myntra Functional Clone</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo_container">
+        <a href="#"
+          ><img
+            class="myntra_home"
+            src="images/myntra_logo.webp"
+            alt="Myntra Home"
+        /></a>
+      </div>
+      <nav class="nav_bar">
+        <a href="#">Men</a>
+        <a href="#">Women</a>
+        <a href="#">Kids</a>
+        <a href="#">Home & Living</a>
+        <a href="#">Beauty</a>
+        <a href="#">Studio <sup>New</sup></a>
+      </nav>
+      <div class="search_bar">
+        <span class="material-symbols-outlined search_icon">search</span>
+        <input
+          class="search_input"
+          placeholder="Search for products, brands and more"
+        />
+      </div>
+      <div class="action_bar">
+        <div class="action_container">
+          <span class="material-symbols-outlined action_icon">person</span>
+          <span class="action_name">Profile</span>
+        </div>
+
+        <div class="action_container">
+          <span class="material-symbols-outlined action_icon">favorite</span>
+          <span class="action_name">Wishlist</span>
+        </div>
+
+        <a class="action_container" href="pages/bag.html">
+          <span class="material-symbols-outlined action_icon"
+            >shopping_bag</span
+          >
+          <span class="action_name">Bag</span>
+          <span class="bag-item-count">0</span>
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <!-- Main Banner -->
+      <section class="main_banner">
+        <img
+          class="banner_image"
+          src="./images/banner.webp"
+          alt="Summer Sale Banner"
+        />
+      </section>
+
+      <!-- Categories Section -->
+      <section class="category_section">
+        <h2 class="section_heading">Shop By Category</h2>
+        <div class="category_grid">
+          <div class="category_card">
+            <img
+              class="category_image"
+              src="./images/mens.webp"
+              alt="Men's Fashion"
+            />
+            <div class="category_name">Men</div>
+          </div>
+          <div class="category_card">
+            <img
+              class="category_image"
+              src="./images/women.webp"
+              alt="Women's Fashion"
+            />
+            <div class="category_name">Women</div>
+          </div>
+          <div class="category_card">
+            <img
+              class="category_image"
+              src="./images/kid.webp"
+              alt="Kids Fashion"
+            />
+            <div class="category_name">Kids</div>
+          </div>
+          <div class="category_card">
+            <img
+              class="category_image"
+              src="./images/house.webp"
+              alt="Home & Living"
+            />
+            <div class="category_name">Home & Living</div>
+          </div>
+          <div class="category_card">
+            <img
+              class="category_image"
+              src="./images/buety.webp"
+              alt="Beauty"
+            />
+            <div class="category_name">Beauty</div>
+          </div>
+          <div class="category_card">
+            <img
+              class="category_image"
+              src="./images/studio.webp"
+              alt="Studio"
+            />
+            <div class="category_name">Studio</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Deal Section -->
+      <section class="banner_section">
+        <img
+          class="banner_img"
+          src="./images/banner 2.webp"
+          alt="Special Offer Banner"
+        />
+      </section>
+
+      <!-- Brands Section -->
+      <section class="brand_section">
+        <h2 class="section_heading">Top Brands</h2>
+        <div class="brand_grid">
+          <div class="brand_card">
+            <img class="brand_image" src="./images/hnm" alt="H&M" />
+            <div class="brand_info">
+              <div class="brand_name">H&M</div>
+              <div class="brand_offer">Min. 40% Off</div>
+            </div>
+          </div>
+          <div class="brand_card">
+            <img class="brand_image" src="./images/zara.png" alt="Zara" />
+            <div class="brand_info">
+              <div class="brand_name">Zara</div>
+              <div class="brand_offer">Flat 30% Off</div>
+            </div>
+          </div>
+          <div class="brand_card">
+            <img class="brand_image" src="./images/levies.png" alt="Levi's" />
+            <div class="brand_info">
+              <div class="brand_name">Levi's</div>
+              <div class="brand_offer">Buy 1 Get 1 Free</div>
+            </div>
+          </div>
+          <div class="brand_card">
+            <img class="brand_image" src="./images/nike.png" alt="Nike" />
+            <div class="brand_info">
+              <div class="brand_name">Nike</div>
+              <div class="brand_offer">Extra 10% Off</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Newsletter Section -->
+      <section class="newsletter_section">
+        <h2 class="newsletter_title">GET THE LATEST TRENDS FIRST</h2>
+        <p class="newsletter_subtitle">
+          Sign up for updates and get 10% off your first order
+        </p>
+        <form class="newsletter_form">
+          <input
+            type="email"
+            class="newsletter_input"
+            placeholder="Enter your email address"
+          />
+          <button type="submit" class="newsletter_btn">SUBSCRIBE</button>
+        </form>
+      </section>
+
+      <!-- Products Section -->
+      <div class="items-container">
+        <!-- Items will be populated by JavaScript -->
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer_container">
+        <div class="footer_column">
+          <h3>ONLINE SHOPPING</h3>
+          <a href="#">Men</a>
+          <a href="#">Women</a>
+          <a href="#">Kids</a>
+          <a href="#">Home & Living</a>
+          <a href="#">Beauty</a>
+          <a href="#">Gift Card</a>
+          <a href="#">Myntra Insider</a>
+        </div>
+
+        <div class="footer_column">
+          <h3>CUSTOMER POLICIES</h3>
+          <a href="#">Contact Us</a>
+          <a href="#">FAQ</a>
+          <a href="#">T&C</a>
+          <a href="#">Terms Of Use</a>
+          <a href="#">Track Orders</a>
+          <a href="#">Shipping</a>
+          <a href="#">Cancellation</a>
+        </div>
+
+        <div class="footer_column">
+          <h3>EXPERIENCE MYNTRA APP ON MOBILE</h3>
+          <a href="#">Android App</a>
+          <a href="#">iOS App</a>
+        </div>
+      </div>
+      <hr />
+      <div class="copyright">© 2023 www.myntra.com. All rights reserved.</div>
+    </footer>
+
+    <script>
+      // Newsletter form submission
+      document
+        .querySelector(".newsletter_form")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+          const email = this.querySelector(".newsletter_input").value;
+          if (email) {
+            alert(
+              `Thank you for subscribing with ${email}! You'll receive 10% off your first order.`
+            );
+            this.reset();
+          }
+        });
+    </script>
+
+    <script src="./data/items.js"></script>
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>
